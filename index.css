@@ -1,0 +1,52 @@
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.nav a {
+  text-decoration: none;
+  color: #2f4f4f;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav a:hover {
+  color: #648888;
+}
+body {
+  background-color: #f5f5f5;
+  color: #2f4f4f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 35px;
+  color: #2f4f4f;
+  text-transform: uppercase;
+}
+.hero {
+  display: flex;
+  width: 600px;
+  gap: 10px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 40px;
+  color: #2f4f4f;
+  text-transform: uppercase;
+}
+.goals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+footer a {
+  color: #2f4f4f;
+  text-decoration: none;
+}

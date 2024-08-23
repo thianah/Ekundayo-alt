@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.back {
+  width: 150px;
+}
+a {
+  color: #fff;
+  padding: 10px;
+  background-color: #2f4f4f;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #68d6d6e1;
+}
+.header {
+  color: #2f4f4f;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.audioBox {
+  display: flex;
+  justify-content: center;
+}
+picture {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.speech {
+  background-color: #2f4f4f;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  max-width: 400px;
+  line-height: 25px;
+}
+body {
+  background-color: #f5f5f5;
+}
+.vidBox {
+  display: flex;
+  justify-content: center;
+}
+.vidBox video {
+  width: 200px;
+  height: 400px;
+}

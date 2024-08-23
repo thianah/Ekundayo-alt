@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="aboutme.css" />
+  </head>
+  <body>
+    <div class="back">
+      <a href="index.html">Go back home ←</a>
+    </div>
+    <h1 class="header">Welcome To My Web Page</h1>
+    <picture>
+      <!-- source for mobile devices-->
+      <source srcset="tiana2.jpg" media="(max-width: 480px)" />
+      <!--source for tablet-->
+      <source
+        srcset="tiana2.jpg"
+        media="(min-width: 481px) and (max-width:768px)"
+      />
+      <!--source for laptop and larger screen-->
+      <source srcset="tiana2.jpg" media="(min-width: 769px)" />
+      <!--fallback image-->
+      <img src="tiana2.jpg" alt="centered image" style="width: 300px" />
+    </picture>
+    <br />
+    <div class="audioBox">
+      <audio src="audio.mp3" audio controls></audio>
+    </div>
+    <br />
+    <div class="speech">
+      <p>
+        Hi, you are welcome to my web page. I'm Christianah, please watch the
+        video below, I have a lot of information there for you.
+        <br />
+        Hope it will also help you to get to know me better
+      </p>
+    </div>
+    <div class="vidBox">
+      <video src="IMG_8522 (1).mp4" video controls style="width: 500px"></video>
+    </div>
+  </body>
+</html>
